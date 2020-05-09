@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.3.1/pulse/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">SHORT URL</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+    {{!-- <div class="main">
+        <form action="/register" method="POST" class="form">
+            <h3>Register here</h3>
+            <input class="main1" type="text" name="name" required placeholder="Enter Your Name"><br>
+
+            <input class="main1" type="email" name="email" required placeholder="Enter Your Name"><br>
+
+            <input class="main1" type="password" name="password" placeholder="Enter Your password"><br><br><br>
+
+            <input class="main2" type="submit" value="Register">
+
+
+    </div> --}}
+    {{!-- <div class="container-fluid">
+        <div class="row">
+            <form class="col-md-4 offset-md-4 " action="/user/login" method="post"
+                style="border: 1px solid black;padding :15px;margin-top: 30px;">
+                <fieldset>
+                    <legend>Register Form</legend>
+                    <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" required
+                                value="email@example.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email
+                            address</label>
+                        <input type="email" name="email" class="form-control" id="exampleInputEmail1" required
+                            aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll
+                            never share
+                            your email with anyone
+                            else.</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" name="password" class="form-control" required id="exampleInputPassword1"
+                            placeholder="Password">
+                    </div>
+                    <input class="btn btn-primary" type="submit" value="Login">
+
+                    <p>If You Havent Register Then
+                        Please Register</p>
+                    <div style="padding-left: 10rem;">
+
+                        <a class="btn btn-primary" href="/user/register">Register
+                            Here</a>
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+    </div> --}}
+    <div class="container-fluid">
+        <div class="row">
+            <form class="col-md-4 offset-md-4 " action="/register" method="post"
+                style="border: 1px solid black;padding :15px;margin-top: 30px;">
+                <fieldset>
+                    <legend>Register Form</legend>
+                    <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" required
+                                value="email@example.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Enter
+                            Your Name</label>
+                        <input type="text" class="form-control" name="name" required placeholder="Enter Your Name Here">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email
+                            address</label>
+                        <input type="email" name="email" class="form-control" id="exampleInputEmail1" required
+                            aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll
+                            never share
+                            your email with anyone
+                            else.</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" name="password" class="form-control" required id="exampleInputPassword1"
+                            placeholder="Password">
+                    </div>
+                    <input class="btn btn-primary" type="submit" value="Register">
+
+                    <p>If You Have Already Register Then
+                        Please Login</p>
+                    <div style="padding-left: 10rem;">
+
+                        <a class="btn btn-primary" href="/user/login">Login
+                            Here</a>
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+    </div>
